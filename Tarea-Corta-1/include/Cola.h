@@ -17,7 +17,9 @@ class Cola
            frente = 0;
            fondo = -1;
            tamano = sizeof(Cola)/sizeof(int);
-
+           //for(int i =0;i<tamano;i++){
+                //Cola[i]=0;
+           //}
        }
        //Funciones
        bool ColaVacia(){return fondo < frente;}

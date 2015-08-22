@@ -1,5 +1,4 @@
 #include "Cola.h"
-#include <string>
 #include <iostream>
 using namespace std;
 

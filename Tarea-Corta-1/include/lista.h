@@ -1,26 +1,24 @@
 #include <stdio.h>
-#include <string>
 #ifndef LISTA_H
 #define LISTA_H
-using namespace std;
 
 
 
 class nodo {
    public:
-    nodo(string v)
+    nodo(char v)
     {
        valor = v;
        siguiente = NULL;
     }
-    nodo(string v, nodo * signodo)
+    nodo(char v, nodo * signodo)
     {
        valor = v;
        siguiente = signodo;
     }
 
    private:
-    string valor;
+    char valor;
     nodo *siguiente;
     int prioridad;
 
@@ -37,9 +35,9 @@ class lista {
     ~lista();
 
     //Funciones
-    void InsertarInicio(string v);
-    void InsertarFinal(string v);
-    void InsertarPos (string v, int pos);
+    void InsertarInicio(char v);
+    void InsertarFinal(char v);
+    void InsertarPos (char v, int pos);
     void EliminarInicio();
     void EliminarFinal();
     void EliminarPos(int pos);

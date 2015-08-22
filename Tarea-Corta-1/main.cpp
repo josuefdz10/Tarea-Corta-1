@@ -6,7 +6,5 @@
 using namespace std;
 
 int main(){
-    lista L;
-    L.InsertarFinal("josue");
-    L.Imprimir();
+
 }

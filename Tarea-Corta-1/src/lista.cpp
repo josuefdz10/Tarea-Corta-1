@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdio.h>
-#include <string>
 #include "lista.h"
 
 using namespace std;
@@ -34,7 +33,7 @@ int lista::largoLista(){
 
 }
 
-void lista::InsertarInicio(string v)
+void lista::InsertarInicio(char v)
 {
    if (ListaVacia())
      primero = new nodo(v);
@@ -42,7 +41,7 @@ void lista::InsertarInicio(string v)
      primero=new nodo (v,primero);
 }
 
-void lista::InsertarFinal(string v)
+void lista::InsertarFinal(char v)
 {
    if (ListaVacia())
      primero = new nodo(v);
@@ -55,7 +54,7 @@ void lista::InsertarFinal(string v)
 }
 
 
-void lista::InsertarPos(string v,int pos)
+void lista::InsertarPos(char *v,int pos)
 {
    if (ListaVacia())
      primero = new nodo(v);
