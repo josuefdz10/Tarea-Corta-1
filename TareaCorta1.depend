@@ -107,3 +107,47 @@
 	<string>
 	"lista.h"
 
+1440382006 source:c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\main.cpp
+	<lista.h>
+	<Pila.h>
+	<Cola.h>
+	<Archivos.h>
+
+1440390036 c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\include\lista.h
+	<stdio.h>
+	<string>
+	<fstream>
+	<iostream>
+
+1440286429 c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\include\pila.h
+
+1440286429 c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\include\cola.h
+	<lista.h>
+
+1440286429 c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\include\archivos.h
+	<Cola.h>
+
+1440286429 source:c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\src\archivos.cpp
+	"Archivos.h"
+	<fstream>
+	<iostream>
+
+1440286429 source:c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\src\cola.cpp
+	"Cola.h"
+	<string>
+	<iostream>
+
+1440394931 source:c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\src\lista.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<sstream>
+	<string.h>
+	"lista.h"
+	<math.h>
+
+1440286429 source:c:\users\andre\google drive\archivos de la u\ii semestre\estructura de datos\tarea programada corta 1\tarea-corta-1\src\pila.cpp
+	<iostream>
+	"Pila.h"
+
