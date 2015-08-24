@@ -5,8 +5,16 @@
 
 using namespace std;
 
+
+
+
 int main(){
-    lista L;
-    L.InsertarFinal("josue");
-    L.Imprimir();
+    lista Lista;
+
+    cout << "Ingrese el nombre del primer archivo : ";
+    Lista.Leer();
+    Lista.procesar();
+
+
+
 }

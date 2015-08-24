@@ -2,6 +2,9 @@
 #include <string>
 #ifndef LISTA_H
 #define LISTA_H
+#include <fstream>
+#include <iostream>
+
 using namespace std;
 
 
@@ -48,11 +51,23 @@ class lista {
     void Borrar(int v);
     void Siguiente();
     void Primero();
-    void Ultimo();
     void BorrarFinal();
     void BorrarInicio();
     void borrarPosicion(int pos);
     int largoLista();
+    void Leer();
+    int validacion(char *caracter);
+    int valorDentroPila(string caracter);
+    int operadorBinario(string caracter);
+    int valorFueraPila(string caracter);
+    string Ultimo();
+    void procesar();
+    string multiplicar(char *numero1, char *numero2);
+    string sumar(char *numero1, char *numero2);
+    string restar(char *numero1, char *numero2);
+    string dividir(char *numero1, char *numero2);
+    string elevar(char *numero1, char *numero2);
+    string aplicarOperando(string numero1, string numero2,string caracter);
 
     //Atributos
     private:
